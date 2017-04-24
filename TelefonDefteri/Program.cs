@@ -11,6 +11,10 @@ namespace TelefonDefteri
         static void Main(string[] args)
         {
             Console.WriteLine("2. Aşama Başarıyla Gerçekleşti");
+            Kisi kisi = new Kisi();
+            kisi.KisiAdi = "MAhmut Yıldız ";
+            kisi.KisiSoyadi = "Mehmet Yildiz";
+            Console.ReadLine();
         }
     }
 }
